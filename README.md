@@ -58,8 +58,7 @@ Il progetto è organizzato in questo modo:
 ```
 └── 📁catalogo-anime
     └── 📁assets
-        └── 📁images #tutte le immagini per il layout del sito
-            ├── logo-anime.webp
+        └── 📁images #tutte le immagini per il layout del sito e della documentazione
     └── 📁docs
         ├── api.md #documentazione per le API utilizzate
         ├── faq.md #domande frequenti
