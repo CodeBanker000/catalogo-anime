@@ -10,7 +10,7 @@
 
 - Verificare di essere connessi a Internet, poiché il sito dipende da Bootstrap e dalle API esterne per funzionare correttamente.
 
-### Perchè non visualizzo gli anime e la classifica se ho una connessione ad internet?
+## Perchè non visualizzo gli anime e la classifica se ho una connessione ad internet?
 
 - Potrebbe esserci un problema temporaneo con le API di Jikan, che forniscono i dati per gli anime e la classifica. Cmq, gli script del sito sono progettati per gestire questo tipo di errori, quindi se le API non sono disponibili, i dati vengono caricati da un file JSON locale (`data.json`) che contiene dati fittizzi degli anime. In questo modo, il sito dovrebbe comunque funzionare e mostrare gli anime e la classifica anche se le API non sono raggiungibili.
 - Potrebbe non essere stato caricato corretetamente il file `script.js` che si occupa di fetchare i dati dalle API. Verificare che il file sia presente e correttamente collegato al file HTML.

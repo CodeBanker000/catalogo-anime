@@ -1,7 +1,25 @@
 # Catalogo Anime
 
-Questa repository serve per creare un mini blog fittizzio che utilizza le API di JSONPlaceHolder per popolare il sito con posts e autori fittizzi.
+Questa repository mostra un catalogo di anime che utilizza le API di Jikan per popolare il sito con dati sugli anime.
 Il progetto è un esempio di sito statico.
+
+## Screenshot
+
+#### Homepage
+
+![Screenshot della homepage del catalogo anime](./assets/images/Screenshot-homepage.png)
+
+#### Lista Anime
+
+![Screenshot della pagina anime del catalogo anime](./assets/images/Screenshot-lista-anime.png)
+
+#### Classifica
+
+![Screenshot della pagina classifica del catalogo anime](./assets/images/screenshot-classifica.png)
+
+## Demo
+
+Il sito è disponibile online all'indirizzo: [catalogo-anime](https://codebanker000.github.io/catalogo-anime/)
 
 ## Funzionalità
 
