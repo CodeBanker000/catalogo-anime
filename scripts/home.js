@@ -18,6 +18,7 @@
                     <img src="${anime.images.jpg.image_url}" class="card-img-top" alt="${anime.title}">
                     <div class="card-body">
                         <h5 class="card-title">${anime.title}</h5>
+                        <h6 class="card-subtitle mb-2 badge">${anime.type}</h6>
                         <p class="card-text">${anime.synopsis ? anime.synopsis.slice(0, 160) + "..." : "Descrizione non disponibile."}</p>
                         <p class="card-text">Score: ${anime.score}</p>
                     </div>

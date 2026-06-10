@@ -50,3 +50,7 @@ header, footer {
     transition: color 0.3s ease;
 }
 
+.badge {
+    background-color: var(--accent-color) !important;
+    color: white;
+}

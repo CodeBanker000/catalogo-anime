@@ -27,11 +27,11 @@ Il progetto espone queste funzionalità:
 
 ## Api utilizzate
 
-| Risorsa | Endpoint                                   | Uso nel sito       |   |   |
-|---------|--------------------------------------------|--------------------|---|---|
-| Post    | <https://jsonplaceholder.typicode.com/posts> | Pagina posts.html  |   |   |
-| Utenti  | <https://jsonplaceholder.typicode.com/users> | Pagina autori.html |   |   |
-|         |                                            |                    |   |   |
+| Risorsa       | Endpoint                                            | Uso nel sito           |
+|---------------|-----------------------------------------------------|------------------------|
+| Anime         | <https://api.jikan.moe/v4/anime>                    | Pagina index.html      |
+| Anime Naruto  | <https://api.jikan.moe/v4/anime?q=naruto&limit=12>  | Pagina autori.html     |
+| Top Anime     | <https://api.jikan.moe/v4/anime/top>                | Pagina classifica.html |
 
 ## Struttura
 
@@ -73,4 +73,4 @@ Matteo Tancredi
 
 ## LICENSE
 
-Il codice è rilasciato sotto la licenza MIT. Vedi il file LICENSE per maggiori dettagli. Sceltoo per permettere a chiunque di utilizzare, modificare e distribuire il codice liberamente, con l'unica condizione di includere la stessa licenza e attribuzione negli eventuali progetti derivati.
+Il codice è rilasciato sotto la licenza MIT. Vedi il file LICENSE per maggiori dettagli. Scelto per permettere a chiunque di utilizzare, modificare e distribuire il codice liberamente, con l'unica condizione di includere la stessa licenza e attribuzione negli eventuali progetti derivati.
