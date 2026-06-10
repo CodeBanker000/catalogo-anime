@@ -4,27 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+     <link rel="stylesheet" href="./styles/style.css">
   </head>
     <title>Catalogo Anime - Classifica</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/images/logo-anime.webp" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    <img src="./assets/images/logo-anime.webp" alt="Logo" width="80" height="80" class="d-inline-block align-text-middle">
                     Catalogo Anime
                 </a>
                 <div class="collapse navbar-collapse ms-4" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
                         </li>
                         <li class="nav-item">
                         <a class="nav-link" href="./anime.html">Anime</a>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="./classifica.html">Classifica</a>
+                        <a class="nav-link active" href="./classifica.html">Classifica</a>
                         </li>
                     </ul>
                 </div>
@@ -32,7 +33,7 @@
         </nav>
     </header>
     <main>
-        <section class="container mt-4">
+        <section class="container my-4">
             <h2>Classifica Anime</h2>
             <p>Scopri i migliori anime della nostra collezione, classificati in base alle preferenze degli utenti.</p>
             <ul id="data-container" class="list-group list-group-flush">
@@ -41,7 +42,7 @@
         </section>
         <div id="status-message" class="container mt-4"></div>
     </main>
-    <footer>
+    <footer class="mt-4">
         <section class="container py-4">
             <div class="row">
                 <div class="col-md-4">
@@ -53,7 +54,7 @@
                 </div>
                 <div class="col-md-4">
                     <h3>Autore: <b>Matteo Tancredi</b></h3>
-                    <p>Il codice del sito è disponibile a questa repository <a href="https://github.com/CodeBanker000/catalogo-anime" >catalogo-anime</a>.</p>
+                    <p>Il codice del sito è disponibile a questa repository <a class="link-footer" href="https://github.com/CodeBanker000/catalogo-anime" >catalogo-anime</a>.</p>
                 </div>
                 <div class="col-md-4"></div>
             </div>

@@ -1,0 +1,52 @@
+:root {
+    --primary-color: #3A1772;
+    --secondary-color: #F2CD5D;
+    --accent-color: #D741A7;
+}
+
+header, footer {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.nav-link, .navbar-brand {
+    color: white;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #cac8c8;
+    transition: color 0.3s ease;
+}
+
+.navbar-toggler, .navbar-toggler-icon {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color) !important;
+}
+
+.active {
+    font-weight: bold;
+    color: var(--secondary-color) !important;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.link-footer {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    color: #b4398d;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+

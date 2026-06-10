@@ -4,17 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
   </head>
     <title>Catalogo Anime - Homepage</title>
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-white">
+            <div class="container">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./assets/images/logo-anime.webp" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    <img src="./assets/images/logo-anime.webp" alt="Logo" width="80" height="80" class="d-inline-block align-text-middle">
                     Catalogo Anime
                 </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
                 <div class="collapse navbar-collapse ms-4" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -36,13 +40,13 @@
         <p>Esplora il nostro catalogo di anime e scopri le classifiche dei migliori titoli.</p>
         <section>
             <h2>Anime</h2>
-            <p>Lista degli anime disponibili nel nostro catalogo e la classifica.</p>
+            <p>Lista ultimi anime aggiunti.</p>
             <div id="random-anime" class="row row-cols-1 row-cols-md-3 g-4">
             </div>
         </section>
         <div id="status-message"></div>
     </main>
-    <footer>
+    <footer class="mt-4">
         <section class="container py-4">
             <div class="row">
                 <div class="col-md-4">
@@ -52,9 +56,9 @@
                         <a class="nav-link" href="./classifica.html">Classifica</a>
                     </nav>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <h3>Autore: <b>Matteo Tancredi</b></h3>
-                    <p>Il codice del sito è disponibile a questa repository <a href="https://github.com/CodeBanker000/catalogo-anime" >catalogo-anime</a>.</p>
+                    <p>Il codice del sito è disponibile a questa repository <a class="link-footer" href="https://github.com/CodeBanker000/catalogo-anime" >catalogo-anime</a>.</p>
                 </div>
                 <div class="col-md-4"></div>
             </div>
