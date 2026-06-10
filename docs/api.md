@@ -26,10 +26,10 @@ Il progetto utilizza le API di Jikan per recuperare i dati degli anime da mostra
 
 ## Campi Utilizzati
 
-| Campo       | Significato  |
-|-------------|--------------|
-| `title`     | Titolo anime |
-| `synopsis`  | Descrizione  |
-| `score`     | Punteggio    |
-| `type`      | Tipo         |
-| `image_url` | Immagine     |
+| Campo                  | Significato  |
+|------------------------|--------------|
+| `title`                | Titolo anime |
+| `synopsis`             | Descrizione  |
+| `score`                | Punteggio    |
+| `type`                 | Tipo         |
+| `images.jpg.image_url` | Immagine     |
