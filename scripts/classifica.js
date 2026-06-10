@@ -15,7 +15,6 @@
                             <div>
                                 <h3>${anime.title}</h3>
                                 <h4>${anime.type}</h4>
-                                <p>${anime.synopsis ? anime.synopsis.slice(0, 160) + "..." : "Descrizione non disponibile."}</p>
                                 <p>Score: ${anime.score}</p>
                             </div>
                         </div>
